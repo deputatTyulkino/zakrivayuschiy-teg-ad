@@ -1,1 +1,74 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter";
+  --accent-font: "PressStart2P";
+
+  --contour-color: black;
+  --animation-fill-color: #ff0000;
+
+  --main-font-weight: 400;
+  --title-card-font-weight: 700;
+
+  --accent-color: #000000;
+
+  --hover-effect-color: #fff;
+
+  --main-bg-color: #ffffff;
+
+  --title-size: clamp(40px, 43.37px + 1.5vw, 65px);
+  --subtitle-size: clamp(14px, 10.83px + 0.85vw, 23px);
+
+  --header-padding: 100px clamp(0px, -105.71px + 33.04vw, 370px);
+  --header-wrapper-padding: clamp(120px, 117.71px + 0.71vw, 128px)
+    clamp(0px, -34.43px + 10.76vw, 120.5px);
+  --main-padding: 0 clamp(0px, -105.71px + 33.04vw, 370px);
+
+  --block-margin: 100px;
+
+  --top-label-position: 25px;
+  --right-label-position: clamp(13px, 9.57px + 1.07vw, 25px);
+  --label-size: 14px;
+  --label-text-stroke-color: #ffffff72;
+
+  --card-title-padding: 4px 10px;
+  --card-title-size: 18px;
+
+  --card-description-padding: 25px;
+  --card-text-size: 18px;
+  --card-text-line-height: 21px;
+  --card-button-width: 130px;
+  --card-button-height: 38px;
+
+  --button-text-size: 14px;
+  --button-text-line-height: 0.9em;
+
+  --footer-padding: 0 0 103px;
+
+  --save-button-padding: 15px 20px;
+
+  --modal-width: clamp(341px, 337.57px + 1.07vw, 353px);
+  --modal-height: 191px;
+  --modal-padding: 30px;
+  --modal-text-size: 14px;
+  --modal-text-line-height: 1.5em;
+  --modal-button-block-padding: 12px;
+
+  --gradient-horizontal: repeating-linear-gradient(
+    to right,
+    #d3d3d3 0px 2px,
+    transparent 2px 4px
+  );
+
+  --gradient-vertical: repeating-linear-gradient(
+    to bottom,
+    #d3d3d3 0px 2px,
+    transparent 2px 4px
+  );
+
+  --gradient-darkness: linear-gradient(
+    to bottom,
+    #e7e7e7 0%,
+    #e7e7e7 0.01%,
+    #1a1a1a 100%
+  );
+}
