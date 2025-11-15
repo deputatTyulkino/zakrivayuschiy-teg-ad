@@ -414,11 +414,11 @@ body:has(#footer__modal[open]) {
 }
 
 .html__image {
-  filter: brightness(25%);
+  filter: brightness(25%) invert(70%);
 }
 
 .css_image {
-  filter: contrast(1100%);
+  filter: contrast(1100%) blur(100px);
 }
 
 .react_image {
@@ -434,7 +434,7 @@ body:has(#footer__modal[open]) {
 }
 
 .zustand__image {
-  filter: saturate(1000%);
+  filter: saturate(1000%) contrast(800%);
 }
 
 .django__image {
